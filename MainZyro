@@ -1,5 +1,5 @@
 -- Execute main scripts
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/MM2_Zyro.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/Mm2Setup.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/Loader"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/ServerEnv"))()
 
