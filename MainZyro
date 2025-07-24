@@ -1,0 +1,9 @@
+-- Execute main scripts
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/MM2_Zyro.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/Loader"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/ServerEnv"))()
+
+-- Delay 3 seconds before executing BugChecker
+task.delay(3, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SystemZyro/MM2Script/refs/heads/main/BugsChecker"))()
+end)
